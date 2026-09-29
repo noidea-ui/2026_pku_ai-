@@ -1,0 +1,24 @@
+2026-09-16 09:01:52,462 INFO    MainThread:39892 [wandb_setup.py:_flush():81] Current SDK version is 0.30.0
+2026-09-16 09:01:52,462 INFO    MainThread:39892 [wandb_setup.py:_flush():81] Configure stats pid to 39892
+2026-09-16 09:01:52,462 INFO    MainThread:39892 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-09-16 09:01:52,463 INFO    MainThread:39892 [wandb_init.py:setup_run_log_directory():739] Logging user logs to D:\classes\ai±à\hw1\wandb\run-20260916_090152-7p0tufpv\logs\debug.log
+2026-09-16 09:01:52,463 INFO    MainThread:39892 [wandb_init.py:setup_run_log_directory():740] Logging internal logs to D:\classes\ai±à\hw1\wandb\run-20260916_090152-7p0tufpv\logs\debug-internal.log
+2026-09-16 09:01:52,463 INFO    MainThread:39892 [wandb_init.py:init():783] calling init triggers
+2026-09-16 09:01:52,463 INFO    MainThread:39892 [wandb_init.py:init():788] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-09-16 09:01:52,464 INFO    MainThread:39892 [wandb_init.py:init():831] starting backend
+2026-09-16 09:01:52,464 INFO    MainThread:39892 [wandb_init.py:init():846] sending inform_init request
+2026-09-16 09:01:52,484 INFO    MainThread:39892 [wandb_init.py:init():851] backend started and connected
+2026-09-16 09:01:52,521 INFO    MainThread:39892 [wandb_init.py:init():921] updated telemetry
+2026-09-16 09:01:52,627 INFO    MainThread:39892 [wandb_init.py:init():944] communicating run to backend with 90.0 second timeout
+2026-09-16 09:01:54,377 INFO    MainThread:39892 [wandb_init.py:init():981] starting run threads in backend
+2026-09-16 09:01:54,445 INFO    MainThread:39892 [wandb_run.py:_console_start():2531] atexit reg
+2026-09-16 09:01:54,446 INFO    MainThread:39892 [wandb_run.py:_redirect():2381] redirect: wrap_raw
+2026-09-16 09:01:54,446 INFO    MainThread:39892 [wandb_run.py:_redirect():2450] Wrapping output streams.
+2026-09-16 09:01:54,446 INFO    MainThread:39892 [wandb_run.py:_redirect():2473] Redirects installed.
+2026-09-16 09:01:54,452 INFO    MainThread:39892 [wandb_init.py:init():1019] run started, returning control to user process
+2026-09-16 09:03:41,486 INFO    MainThread:39892 [wandb_run.py:_finish():2303] finishing run 2500013125-peking-university/aipro-hw1-cifar10/7p0tufpv
+2026-09-16 09:03:41,486 INFO    MainThread:39892 [wandb_run.py:_atexit_cleanup():2498] got exitcode: 0
+2026-09-16 09:03:41,487 INFO    MainThread:39892 [wandb_run.py:_restore():2480] restore
+2026-09-16 09:03:41,487 INFO    MainThread:39892 [wandb_run.py:_restore():2486] restore done
+2026-09-16 09:03:43,392 INFO    MainThread:39892 [wandb_run.py:_footer_sync_info():3901] logging synced files

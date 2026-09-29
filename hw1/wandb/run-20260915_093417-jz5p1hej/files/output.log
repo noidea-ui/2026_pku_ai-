@@ -1,0 +1,15 @@
+device: cuda
+model device: cuda:0
+images device: cuda:0
+labels device: cuda:0
+Epoch [1/10],Loss: 2.0049Accuracy: 25.70
+Epoch [2/10],Loss: 1.5480Accuracy: 43.47
+Epoch [3/10],Loss: 1.3599Accuracy: 51.15
+Epoch [4/10],Loss: 1.2505Accuracy: 55.20
+Epoch [5/10],Loss: 1.1724Accuracy: 58.30
+Epoch [6/10],Loss: 1.1060Accuracy: 61.10
+Epoch [7/10],Loss: 1.0371Accuracy: 63.40
+Epoch [8/10],Loss: 0.9935Accuracy: 65.03
+Epoch [9/10],Loss: 0.9461Accuracy: 66.71
+Epoch [10/10],Loss: 0.9009Accuracy: 68.24
+Test Loss: 1.0824Test Accuracy: 62.38

@@ -1,0 +1,26 @@
+device: cuda
+model device: cuda:0
+images device: cuda:0
+labels device: cuda:0
+Epoch [1/10],Loss: 2.3021Accuracy: 9.58
+Epoch [2/10],Loss: 2.2965Accuracy: 11.02
+Epoch [3/10],Loss: 2.2723Accuracy: 18.01
+Epoch [4/10],Loss: 2.1123Accuracy: 22.86
+Epoch [5/10],Loss: 1.9456Accuracy: 29.29
+Epoch [6/10],Loss: 1.8446Accuracy: 32.80
+Epoch [7/10],Loss: 1.7565Accuracy: 36.09
+Epoch [8/10],Loss: 1.6857Accuracy: 38.55
+Epoch [9/10],Loss: 1.6332Accuracy: 40.53
+Epoch [10/10],Loss: 1.5895Accuracy: 42.18
+Test Loss: 1.5731Test Accuracy: 42.68
+Per-class test accuracy:
+airplane: 47.00%
+automobile: 72.20%
+bird: 16.80%
+cat: 30.10%
+deer: 22.50%
+dog: 36.00%
+frog: 60.90%
+horse: 47.30%
+ship: 47.90%
+truck: 46.10%

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\classes\ai编\hw1\train.py", line 20, in <module>
+    testloader = torch.utils.data.dataloader(testset,batch_size = batch_size,shuffle = False,num_workers = 0)
+TypeError: 'module' object is not callable
