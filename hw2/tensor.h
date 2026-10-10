@@ -20,6 +20,14 @@ class Tensor {
 public:
     Tensor() : shape_({}),numel_(0),device_(Device::CPU),data_(nullptr){};
 
+    // 深拷贝：复制独立的内存副本，而不是共享 data_
+    Tensor(const Tensor& other);
+    Tensor& operator=(const Tensor& other);
+
+    // 移动语义：转移所有权，保持返回临时对象时的高效性
+    Tensor(Tensor&& other) noexcept;
+    Tensor& operator=(Tensor&& other) noexcept;
+
     Tensor(const std::vector<int>& shape,Device device = Device::CPU)
         :shape_(shape),device_(device){
             numel_ = 1;

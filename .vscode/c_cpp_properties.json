@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "windows-clang-x64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${vcpkgRoot}/x64-windows/include",
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\include"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "cStandard": "gnu23",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "windows-clang-x64",
+      "compilerPath": "C:/msys64/mingw64/bin/g++.exe"
+    }
+  ],
+  "version": 4
+}
